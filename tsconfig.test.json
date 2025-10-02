@@ -2,7 +2,7 @@
   "extends": "./tsconfig.base.json",
   "include": ["test"],
   "compilerOptions": {
-    "types": ["node"],
+    "types": ["bun-types", "node"],
     "tsBuildInfoFile": ".tsbuildinfo/test.tsbuildinfo",
     "rootDir": "test",
     "noEmit": true
